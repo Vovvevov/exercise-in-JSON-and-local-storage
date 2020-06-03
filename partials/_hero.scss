@@ -1,0 +1,19 @@
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-stripe-div {
+    width: 92vw;
+    height: 30px;
+    background-image: linear-gradient(to right,rgb(175, 87, 87) , rgb(87, 87, 141));
+    
+}
+
+#hero-img-div {
+    display: grid;
+    width: 92vw;
+    //background-color: royalblue;
+    height: 100px;
+}

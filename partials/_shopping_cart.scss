@@ -1,0 +1,22 @@
+#products-in-shopping-cart-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    width: 92vw;
+    background-color: none;
+    .product-div {
+        height: fit-content;
+        margin: 100px;
+        //border: solid black 5px; 
+    }
+    .product-image-div {
+        width: 100px;
+        height: 100px;
+        border: solid whitesmoke 10px; 
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}

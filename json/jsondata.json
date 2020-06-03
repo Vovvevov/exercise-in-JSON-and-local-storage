@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "name": "Dior Fahrenheit",
+            "price": 1070,
+            "picture": "images/fahrenheit.jpg"
+        },
+        {
+            "name": "YSL Kouros",
+            "price": 985,
+            "picture": "images/kouros.jpg"
+        },
+        {
+            "name": "Guerlain L'instant",
+            "price": 890,
+            "picture": "images/l'instant.jpg"
+        },
+        {
+            "name": "Cacharel Nemo",
+            "price": 760,
+            "picture": "images/nemo.jpg"
+        },
+        {
+            "name": "Dior Sauvage",
+            "price": 995,
+            "picture": "images/sauvage.jpg"
+        },
+        {
+            "name": "John Varvatos Varvatos",
+            "price": 675,
+            "picture": "images/varvatos.jpg"
+        },
+        {
+            "name": "Givenchy Xeryus Rouge",
+            "price": 790,
+            "picture": "images/xeryus_rouge.jpg"
+        },
+        {
+            "name": "Hugo Boss Man",
+            "price": 530,
+            "picture": "images/hugo_boss_man.jpg"
+        },
+        {
+            "name": "Creed Aventus",
+            "price": 3695,
+            "picture": "images/aventus.jpg"
+        },
+        {
+            "name": "YSL L'homme Intense",
+            "price": 865,
+            "picture": "images/l'homme_intense.jpg"
+        }
+    ]
+}

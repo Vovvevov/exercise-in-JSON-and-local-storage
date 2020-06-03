@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-image: url("images/perfume_collection_optimized_low_qty.jpg");
+  background-size: cover;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header li {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+header .logo-div {
+  font-size: 30px;
+  font-family: windings;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: -webkit-gradient(linear, left top, right top, from(#af5757), to(#57578d));
+  background-image: linear-gradient(to right, #af5757, #57578d);
+}
+
+footer .logo-div {
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: windings;
+  margin: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer li {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+footer h3 {
+  color: whitesmoke;
+  font-weight: lighter;
+}
+
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero-stripe-div {
+  width: 92vw;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#af5757), to(#57578d));
+  background-image: linear-gradient(to right, #af5757, #57578d);
+}
+
+#hero-img-div {
+  display: -ms-grid;
+  display: grid;
+  width: 92vw;
+  height: 100px;
+}
+
+#products-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 150px;
+}
+
+#products-and-headline-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 92vw;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#products-and-headline-wrapper h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#products-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 92vw;
+  background-color: none;
+}
+
+#products-div .product-div {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 100px;
+}
+
+#products-div .product-image-div {
+  width: 100px;
+  height: 100px;
+  border: solid whitesmoke 10px;
+}
+
+#products-div img {
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=styles.css.map */
